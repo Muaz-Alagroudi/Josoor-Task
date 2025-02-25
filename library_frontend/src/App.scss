@@ -1,0 +1,36 @@
+// NavBar.scss
+
+.navbar-container {
+  background-color: #f8f9fa; // Light background for the navbar container
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px; // Space between buttons
+
+    .nav-button {
+      background-color: transparent;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #333;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        background-color: #e9ecef; // Light gray on hover
+        color: #000;
+        border-radius: 4px;
+      }
+
+      &.active {
+        background-color: #007bff; // Blue background for active tab
+        color: white;
+        border-radius: 4px;
+      }
+    }
+  }
+}
