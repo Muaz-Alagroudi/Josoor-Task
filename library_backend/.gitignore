@@ -1,0 +1,30 @@
+# Flask .gitignore
+
+# Virtual environment
+/venv/
+/env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+/instance/
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
